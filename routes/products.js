@@ -1,13 +1,14 @@
-// products.js (dentro de routes)
+// products.js
 const express = require('express');
 const fs = require('fs');
+const path = require('path');
 const router = express.Router();
 
-const productsPath = './data/products.json';
+const productsPath = path.join(__dirname, '..', 'data', 'products.json');
 
 // GET para obtener un producto por ID
 router.get('/:id', (req, res) => {
-  const productId = req.params.id;
+  const productId = parseInt(req.params.id);
 
   fs.readFile(productsPath, 'utf8', (err, data) => {
     if (err) return res.status(500).send(err);
@@ -23,4 +24,5 @@ router.get('/:id', (req, res) => {
 });
 
 module.exports = router;
+
 

@@ -1,15 +1,35 @@
 [
   {
-    "id": "1",
-    "name": "Producto 1",
-    "price": 100
+    "id": 1,
+    "title": "Hamburgesa Doble Cheddar",
+    "description": "Incluye: doble cheddar, salsa especial, pan de papa",
+    "code": "P001",
+    "price": 100,
+    "status": true,
+    "stock": 50,
+    "category": "Categoría A",
+    "thumbnails": ["https://website.menu.app/app/uploads/sites/27/hamburguesa-doble-queso-bacon-1024x683.png"]
   },
   {
-    "id": "2",
-    "name": "Producto 2",
-    "price": 150
+    "id": 2,
+    "title": "Hamburgesa Oklahoma",
+    "description": "Incluye: Salsa criolla, cheddar y mayonesa",
+    "code": "P002",
+    "price": 150,
+    "status": true,
+    "stock": 30,
+    "category": "Categoría B",
+    "thumbnails": ["https://i0.wp.com/www.sitemarca.com/wp-content/uploads/2020/11/McDonalds-PedidosYA-transp-e1604918016539.png"]
   },
   {
-    "id": "3"
+    "id": 3,
+    "title": "Hamburgesa Chesse Burger",
+    "description": "Incluye: Mayonesa, cheddar, lechuga y tomate",
+    "code": "P003",
+    "price": 200,
+    "status": true,
+    "stock": 20,
+    "category": "Categoría C",
+    "thumbnails": ["https://www.circuitogastronomico.com/wp-content/uploads/2017/09/Clubhouse.png"]
   }
 ]
