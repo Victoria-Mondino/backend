@@ -1,25 +1,16 @@
 [
   {
     "id": 1,
-    "title": "Hamburgesa Doble Cheddar",
+    "title": "Hamburgesa Doble Cheddar ACTUALIZE",
     "description": "Incluye: doble cheddar, salsa especial, pan de papa",
     "code": "P001",
     "price": 100,
     "status": true,
     "stock": 50,
     "category": "Categoría A",
-    "thumbnails": ["https://website.menu.app/app/uploads/sites/27/hamburguesa-doble-queso-bacon-1024x683.png"]
-  },
-  {
-    "id": 2,
-    "title": "Hamburgesa Oklahoma",
-    "description": "Incluye: Salsa criolla, cheddar y mayonesa",
-    "code": "P002",
-    "price": 150,
-    "status": true,
-    "stock": 30,
-    "category": "Categoría B",
-    "thumbnails": ["https://i0.wp.com/www.sitemarca.com/wp-content/uploads/2020/11/McDonalds-PedidosYA-transp-e1604918016539.png"]
+    "thumbnails": [
+      "https://website.menu.app/app/uploads/sites/27/hamburguesa-doble-queso-bacon-1024x683.png"
+    ]
   },
   {
     "id": 3,
@@ -30,6 +21,21 @@
     "status": true,
     "stock": 20,
     "category": "Categoría C",
-    "thumbnails": ["https://www.circuitogastronomico.com/wp-content/uploads/2017/09/Clubhouse.png"]
+    "thumbnails": [
+      "https://www.circuitogastronomico.com/wp-content/uploads/2017/09/Clubhouse.png"
+    ]
+  },
+  {
+    "title": "Nuevo Producto",
+    "description": "Descripción del nuevo producto",
+    "code": "P004",
+    "price": 250,
+    "status": true,
+    "stock": 40,
+    "category": "Categoría D",
+    "thumbnails": [
+      "https://ejemplo.com/nueva-imagen.png"
+    ],
+    "id": 4
   }
 ]
